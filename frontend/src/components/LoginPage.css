@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #333; /* Dark gray for text color for better readability */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+body {
+  background-color: #f4f6f9; /* Soft light gray background */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  text-align: center;
+  background-color: #ffffff; /* White for the container background */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Stronger shadow for elevation */
+  width: 100%;
+  max-width: 450px;
+  margin: 80px auto;
+  transform: translateY(10px); /* Slight downward shift initially */
+  opacity: 0;
+  animation: fadeInUp 0.8s forwards; /* Fade-in-up animation */
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.LoginPage h1 {
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50; /* Darker blue-gray for the heading */
+  opacity: 0;
+  animation: fadeInUp 0.8s forwards 0.2s; /* Delay fade-in effect */
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.Login input {
+  margin-bottom: 20px;
+  padding: 12px;
+  width: 320px;
+  max-width: 100%;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ddd; /* Light gray for the border */
+  border-radius: 8px;
+  background-color: #fafafa; /* Light gray background for inputs */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for border and shadow */
+}
+
+.Login input:focus {
+  border-color: #3498db; /* Bright blue for focus */
+  outline: none;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.4); /* Soft blue glow on focus */
+}
+
+.password-container {
+  position: relative;
+}
+
+.show-password {
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  font-size: 18px;
+  color: #7f8c8d; /* Medium gray for the password icon */
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+.show-password:hover {
+  color: #e74c3c; /* Red for hover state */
+  cursor: pointer;
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.error {
+  color: #e74c3c; /* Red for error messages */
+  font-size: 14px;
+  margin-top: -12px;
+  margin-bottom: 12px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 0.8s forwards 0.5s; /* Delay fade-in effect */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link {
+  color: #3498db; /* Bright blue for links */
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+.link:hover {
+  text-decoration: underline; /* Underline effect on hover */
+  color: #2980b9; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}

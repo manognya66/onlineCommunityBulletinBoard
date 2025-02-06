@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-form {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-control label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-top: 5px;
+}
+
+.form-control input:focus {
+  border-color: #000;
+}
+
+.form-control input[type="file"] {
+  padding: 6px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 45px;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 60%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.password-toggle:hover {
+  color: #000;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.static-email,
+.static-name {
+  font-size: 16px; /* Set equal size for both */
+  color: #333; /* Ensure the text is dark for readability */
+  margin: 8px 0; /* Add space around the email and name */
+}
+

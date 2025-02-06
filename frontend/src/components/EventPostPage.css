@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #5e503f; /* Neutral darker text for readability */
+}
+
+body {
+  background-color: #eae0d5; /* Light and airy background */
+}
+
+.event-post-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.event-form {
+  max-width: 800px;
+  width: 100%;
+  padding: 10px 30px; /* Added a bit more padding for space */
+  background-color: #eae0d5; /* Crisp white form background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Lighter shadow for subtle depth */
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 15px auto;
+}
+
+.form-group-event,
+.form-group-registration {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 15px 0;
+}
+
+label {
+  margin: 5px 0;
+  font-weight: 600;
+  color: #5e503f; /* Neutral text color for labels */
+}
+
+input,
+textarea {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd; /* Subtle border for form fields */
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  background-color: #f9f7f3; /* Very light background for fields */
+  color: #5e503f; /* Text color matches the form */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #5e503f;; /* Soft green focus border */
+  box-shadow: 0 0 8px rgba(243, 217, 69, 0.5); /* Glow effect for focus */
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.poster-button {
+  display: flex;
+  justify-content: start;
+  gap: 16px;
+  margin: 5px 0;
+}
+
+.error {
+  font-size: 14px;
+  color: #d9534f; /* Softer red for error messages */
+  margin: 10px auto;
+  text-align: center;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.submit-button button {
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button button:hover {
+  transform: scale(1.05); /* Subtle scaling effect */
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Slightly increased gap for spacing */
+  width: 100%;
+}
+
+.image-preview {
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-preview img {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  border: 2px solid #5e503f; /* Neutral border color for images */
+}
+
+.styled-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  appearance: none;
+}
+
+.styled-dropdown:focus {
+  outline: none;
+  border-color: #5e503f;; /* Soft green focus border */
+  box-shadow: 0 0 8px rgba(243, 217, 69, 0.5); /* Glow effect for focus */
+}
+
+.styled-dropdown option {
+  font-size: 16px;
+  padding: 10px;
+}

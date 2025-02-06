@@ -1,0 +1,52 @@
+/* Reset styles for consistent box model and layout */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0a0908, #5e503f); /* Gradient from #0a0908 to #5e503f */
+}
+
+main {
+  padding: 10px; /* Compact layout */
+}
+
+section {
+  margin-bottom: 10px; /* Reduced gap between sections */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Clean shadow effect */
+}
+
+/* Trending Events Section */
+.trending-events {
+  background: linear-gradient(to bottom, #5e503f, #eae0d5); /* Gradient from #5e503f to #eae0d5 */
+  color: #0a0908; /* Dark text color for better contrast */
+}
+
+/* Clubs Section */
+.clubs {
+  background: linear-gradient(to bottom, #eae0d5, #5e503f); /* Gradient from #eae0d5 to #5e503f */
+  color: #0a0908; /* Dark text color for better contrast */
+}
+
+.clubs h2{
+  color: #0a0908;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: 22px;
+  text-align: center;
+  color: #eae0d5; /* Light text color */
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #eae0d5; /* Light text color for paragraphs */
+}
