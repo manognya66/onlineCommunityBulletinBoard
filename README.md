@@ -8,7 +8,7 @@ A **scalable web application** designed for communities to **post events**, **br
 - 🗃️ View event listings 
 - 🧾 Event registration 
 - 🔐 Secure user authentication
-- ☁️ Scalable deployment using AWS
+- ☁️ Scalable deployment using AWS(only **Backend**)
 
 ## 🛠️ Tech Stack
 
