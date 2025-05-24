@@ -28,5 +28,5 @@ git clone https://github.com/manognya66/community-bulletin-board.git
 **After cloning the repository create a .env file and store your JWT(Jason Web Token), AWS credentials and MongoDB secret key.**
 
 For any questions or collaboration inquiries, feel free to reach out:
-  - Email: manognya71003@gmail.com
+  Email: manognya71003@gmail.com
 
