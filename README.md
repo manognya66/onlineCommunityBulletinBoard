@@ -19,4 +19,6 @@ A **scalable web application** designed for communities to **post events**, **br
   - EC2 for hosting
   - Load Balancer for scalability
 
+For any questions or collaboration inquiries, feel free to reach out:
+📧 Email: manognya71003@gmail.com
 
