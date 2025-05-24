@@ -20,7 +20,7 @@ A **scalable web application** designed for communities to **post events**, **br
   - Load Balancer for scalability
 
 ## ✨ Future Improvements
-    -🔔 Notification system
+  -🔔 Notification system
 
 For any questions or collaboration inquiries, feel free to reach out:
 📧 Email: manognya71003@gmail.com
